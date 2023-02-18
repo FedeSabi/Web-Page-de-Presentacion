@@ -32,18 +32,27 @@
 }
 @media screen and (max-width:999px) {
     .fede{
+    
       padding-right: 300px;
     }
     .fede p{
         display: flex;
-        flex-direction: row;
+        
 }
 @media screen and (max-width:763px) {
+    .fede{
+        width: 35%;
+        height: 10%;
+        
+    }
     .fede h1{
         font-size: 2.5em;
     }
     .fede h2{
         font-size: 1.5em;
+    }
+    .fede p{
+        font-size: 1em;
     }
     }
 }
