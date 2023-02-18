@@ -92,6 +92,7 @@ button:hover{
     color: blue;
 }
 @media screen and (max-width:1290px) {
+   
     .contenedorCards1 .img1{
         width: 300px;
         height: 600px;
@@ -107,7 +108,18 @@ button:hover{
         justify-content:space-between;
     } 
 }
-@media screen and (max-width:620px) {
+@media screen and (max-width:625px) {
+    .contenedorCards1{
+        width: 800px;
+        height: 450px;
+    }
+    .contenedorCards1 .h1{
+        font-size: 2em;
+    }
+    .contenedorCards1 .button{
+        width: 100px;
+        height: 50px;   
+    }
     .contenedorCards1 .img1{
      display: none;
     } 
@@ -122,5 +134,16 @@ button:hover{
 @media screen and (max-width:625px) {
     .contenedorCards2 .img2, .contenedorCards3 .img3{
      display: none;
+    } 
+    .contenedorCards2, .contenedorCards3{
+        width: 800px;
+        height: 425px;
+    }
+    .contenedorCards2 .h1, .contenedorCards3 .h1{
+        font-size: 2em;
+    }
+    .contenedorCards2 .button, .contenedorCards3 .button {
+        width: 100px;
+        height: 50px;   
     } 
 }
