@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(48, 52, 66);
+    font-family: "Open Sans", sans-serif;
+    overflow-x:hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+   
+}
+.titulo{ /*federico*/
+    font-size:4em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin-top: 10px; 
+    font-weight: 300;
+    text-align: left;
+}
+.menu{ /*navbar*/
+display: flex;
+font-size: x-large;
+justify-content: space-between;
+gap: 80px;
+}
+.hamburguesa{
+    color: rgb(252, 231, 199);
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:720px) {
+    .menu{    
+        display:none;
+    }
+    .hamburguesa{
+        display: block;
+        color: rgb(252, 231, 199);
+    }
+    header{
+        flex-direction: column;
+    }
+} 

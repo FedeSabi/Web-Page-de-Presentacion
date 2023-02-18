@@ -1,0 +1,65 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+}
+.sigamos{
+display: flex;
+justify-content: center;
+font-size: 1em;
+}
+footer h2{
+    color: rgb(252, 231, 199); 
+    font-weight: 400;
+}
+.redes{
+display: flex;
+justify-content:space-evenly;
+margin: 50px;
+}
+.redes button{
+    width: 330px;
+    height: 80px;
+    text-decoration: underline;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 4px solid skyblue;
+    font-size: 1.5em;
+    color: rgb(252, 231, 199); 
+    background-color: rgb(48, 52, 66);
+}
+.redes button:hover{
+    background-color: transparent;
+    border-color: black;
+    color: blue;
+}   
+.gmail{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(252, 231, 199); 
+    font-size: 2em;
+    font-weight: 500;
+}
+.gmail a:hover{
+  color: blue;
+}
+.gracias{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 231, 199); 
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+@media (max-width:980px){
+    .redes{
+         display: flex;
+         flex-direction: column;
+        gap: 30px;
+     }
+     
+     
+  }  
