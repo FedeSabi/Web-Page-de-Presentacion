@@ -115,3 +115,13 @@ resize: none;
     padding-top: 20px; 
     resize: none;
 }
+
+@media screen and (max-width:765px) {
+    .contacto h1{
+    font-size: 1.5em;
+    }
+    .contacto h2{
+        font-size: 1em;
+    }
+
+}

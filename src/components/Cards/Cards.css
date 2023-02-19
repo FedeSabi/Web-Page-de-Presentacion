@@ -110,33 +110,15 @@ button:hover{
 }
 @media screen and (max-width:625px) {
     .contenedorCards1{
-        width: 500px;
-        height: 400px;
+        width: 300px;
+        height: 550px;
         flex-direction:column;
         justify-content: center;
     }
     .contenedorCards1 .h1{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .contenedorCards1 .lorem{
-        font-size: 1em;
-    }
-    .contenedorCards1 .button{
-        width: 100px;
-        height: 50px;   
-    }
-    .contenedorCards1 .img1{
-     display: none;
-    } 
-}
-@media screen and (max-width:595px) {
-    .contenedorCards1{
-        width: 500px;
-        height: 400px;
-       
-      
-    }
-    .contenedorCards1 .h1{
         font-size: 1em;
     }
     .contenedorCards1 .button{
@@ -159,12 +141,13 @@ button:hover{
      display: none;
     } 
     .contenedorCards2{
-        width: 500px;
-        height: 400px;
-        flex-direction: column;
+        width: 300px;
+        height: 480px;
+        flex-direction:column;
+        justify-content: center;
     }
     .contenedorCards2 .h1{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .contenedorCards2 .lorem{
         font-size: 1em;
@@ -177,12 +160,13 @@ button:hover{
 @media screen and (max-width:625px) {
    
     .contenedorCards3{
-        width: 500px;
-        height: 400px;
-        flex-direction: column;
+        width: 300px;
+        height: 490px;
+        flex-direction:column;
+        justify-content: center;
     }
     .contenedorCards3 .h1{
-        font-size: 1em;
+        font-size: 1.2em;
 
     }
     .contenedorCards3 .lorem{
