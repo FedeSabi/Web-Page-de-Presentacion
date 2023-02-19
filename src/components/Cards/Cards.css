@@ -110,11 +110,34 @@ button:hover{
 }
 @media screen and (max-width:625px) {
     .contenedorCards1{
-        width: 800px;
-        height: 450px;
+        width: 500px;
+        height: 400px;
+        flex-direction:column;
+        justify-content: center;
     }
     .contenedorCards1 .h1{
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+    .contenedorCards1 .lorem{
+        font-size: 1em;
+    }
+    .contenedorCards1 .button{
+        width: 100px;
+        height: 50px;   
+    }
+    .contenedorCards1 .img1{
+     display: none;
+    } 
+}
+@media screen and (max-width:595px) {
+    .contenedorCards1{
+        width: 500px;
+        height: 400px;
+       
+      
+    }
+    .contenedorCards1 .h1{
+        font-size: 1em;
     }
     .contenedorCards1 .button{
         width: 100px;
@@ -135,15 +158,40 @@ button:hover{
     .contenedorCards2 .img2, .contenedorCards3 .img3{
      display: none;
     } 
-    .contenedorCards2, .contenedorCards3{
-        width: 800px;
-        height: 425px;
+    .contenedorCards2{
+        width: 500px;
+        height: 400px;
+        flex-direction: column;
     }
-    .contenedorCards2 .h1, .contenedorCards3 .h1{
-        font-size: 2em;
+    .contenedorCards2 .h1{
+        font-size: 1.5em;
     }
-    .contenedorCards2 .button, .contenedorCards3 .button {
+    .contenedorCards2 .lorem{
+        font-size: 1em;
+    }
+    .contenedorCards2 .button {
         width: 100px;
         height: 50px;   
     } 
 }
+@media screen and (max-width:625px) {
+   
+    .contenedorCards3{
+        width: 500px;
+        height: 400px;
+        flex-direction: column;
+    }
+    .contenedorCards3 .h1{
+        font-size: 1em;
+
+    }
+    .contenedorCards3 .lorem{
+        font-size: 1em;
+    }
+    .contenedorCards3 .button {
+        width: 50px;
+        height: 20px;  
+        font-size: 1em; 
+    } 
+}
+
