@@ -1,8 +1,11 @@
 .avatar{
-    display: flex;    
+    display: flex;   
+}
+.imgAvatar{
+    width: 40%;
 }
 .fede{ 
-    width: 70%;    
+    width: 60%;    
     height: 100%;  
     display: flex;
     flex-direction:column;
@@ -32,7 +35,6 @@
 }
 @media screen and (max-width:999px) {
     .fede{
-    
       padding-right: 300px;
     }
     .fede p{
@@ -40,10 +42,13 @@
         
 }
 @media screen and (max-width:763px) {
+    .imgAvatar{
+        width: 35%;
+        height: 10%;  
+    }
     .fede{
         width: 35%;
-        height: 10%;
-        
+        height: 10%;   
     }
     .fede h1{
         font-size: 2.5em;
@@ -56,3 +61,31 @@
     }
     }
 }
+@media screen and (max-width:592px) {
+   .avatar{
+    width: 100%;
+   }
+    .imgAvatar{
+      display: none; 
+    }
+    .fede{
+        width: 100%;
+    }
+    .fede h1{
+        width: 100%;
+        font-size: 3em;
+        display:flex; 
+        text-align: center;
+    }
+    .fede h2{
+        font-size: 2.5em;
+        display:flex; 
+        flex-direction: row;
+    }
+    .fede p{
+        font-size: 2em;
+        display:flex; 
+        flex-direction: row;
+    }
+    }
+    
