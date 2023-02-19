@@ -119,9 +119,8 @@ resize: none;
 @media (max-width:765px) {
     .formulario .llaman, .formulario .email, .formulario .mensajes{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
     }
-   
     .contacto h1{
     font-size: 1.5em;
     }
