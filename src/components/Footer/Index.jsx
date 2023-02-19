@@ -17,7 +17,7 @@ const Footer= () => {
             <a href="mailto:federico.sabiche@gmail.com">federico.sabiche@gmail.com</a>   
         </div>
         <div>  
-        <h3 className="gracias">Gracias por navergar en mi pagina web.</h3>
+        <h3 className="gracias">Gracias por navegar en mi pagina web.</h3>
         </div>
         </footer>
         </div>
