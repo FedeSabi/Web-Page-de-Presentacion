@@ -55,11 +55,32 @@ margin: 50px;
     font-family: 'Open Sans', sans-serif;
 }
 @media (max-width:980px){
+   .sigamos{
+    font-size: 0.6em;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+
+   }
     .redes{
          display: flex;
          flex-direction: column;
         gap: 30px;
      }
-     
-     
+     .redes button{
+       justify-content: center;
+        width: 230px;
+        height: 50px;
+        font-size: 1em;
   }  
+  .gmail{
+    margin-left: 20px;
+    justify-content: center;
+  }
+  .gracias{
+    width: 300px;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 600;
+  }
+}
