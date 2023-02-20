@@ -25,31 +25,53 @@ header{
     font-weight: 300;
     text-align: left;
 }
-.menu{ /*navbar*/
+.menu{ /*navbar*//*navItems*/
 display: flex;
 font-size: x-large;
 justify-content: space-between;
 gap: 80px;
 }
-.hamburguesa{
-    color: rgb(252, 231, 199);
-    font-size: 50px;
-    cursor: pointer;
+.navTogle{
     display: none;
 }
-@media (max-width:720px) {
+@media (max-width:760px) {
     .menu{    
-        display:none;
-    }
-    .hamburguesa{
-        display: block;
-        color: rgb(252, 231, 199);
-    }
-    header{
-        flex-direction: column;
-    }
-    nav{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgb(48, 52, 66);
         display: flex;
         flex-direction: column;
+        width: 50%;
+        height: -webkit-fill-available;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
     }
-} 
+    .menu.open{
+        transform: translateX(0) !important;
+    }
+    .navTogle{
+        display: flex !important;
+        flex-direction: column;
+        margin:15px;
+    }
+    .navTogle span{
+        width:30px;
+        height: 4px;
+        background-color:rgb(252, 231, 199);
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+    .navTogle.open > span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .navTogle.open > span:nth-child(2){
+        display: none;
+    }
+    .navTogle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+
+}
