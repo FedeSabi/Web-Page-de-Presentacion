@@ -109,14 +109,19 @@ button:hover{
     } 
 }
 @media screen and (max-width:625px) {
+    .proyectos{
+        font-size: 2em;
+    }
     .contenedorCards1{
-        width: 300px;
-        height: 550px;
+        width: 260px;
+        height: 600px;
+        display: flex;
         flex-direction:column;
         justify-content: center;
+    
     }
     .contenedorCards1 .h1{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .contenedorCards1 .lorem{
         font-size: 1em;
@@ -141,13 +146,13 @@ button:hover{
      display: none;
     } 
     .contenedorCards2{
-        width: 300px;
-        height: 480px;
+        width: 270px;
+        height: 550px;
         flex-direction:column;
         justify-content: center;
     }
     .contenedorCards2 .h1{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .contenedorCards2 .lorem{
         font-size: 1em;
@@ -160,8 +165,8 @@ button:hover{
 @media screen and (max-width:625px) {
    
     .contenedorCards3{
-        width: 300px;
-        height: 490px;
+        width: 270px;
+        height: 560px;
         flex-direction:column;
         justify-content: center;
     }
