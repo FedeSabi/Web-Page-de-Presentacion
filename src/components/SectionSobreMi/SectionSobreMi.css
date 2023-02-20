@@ -56,6 +56,10 @@ a{
     }
 }
 @media screen and (max-width:700px) {
+    .tituloSobreMi h1{
+    font-size: 2em;
+    }
+
     .fotoFede{
       display: none;
     }
