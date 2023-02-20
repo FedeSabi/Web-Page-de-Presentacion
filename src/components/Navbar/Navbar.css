@@ -41,11 +41,15 @@ gap: 80px;
         left: 0;
         background-color: rgb(48, 52, 66);
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
+        justify-content:flex-start;
         width: 50%;
-        height: -webkit-fill-available;
         transform: translateX(-100%);
         transition: 0.3s ease all;
+    }
+    .menu a{
+        font-size: 0.8em;
+        margin-left: 40px;
     }
     .menu.open{
         transform: translateX(0) !important;
