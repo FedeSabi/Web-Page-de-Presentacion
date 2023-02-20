@@ -41,7 +41,7 @@
         display: flex;
         
 }
-@media screen and (max-width:763px) {
+@media screen and (max-width:780px) {
     .imgAvatar{
         width: 35%;
         height: 10%;  
