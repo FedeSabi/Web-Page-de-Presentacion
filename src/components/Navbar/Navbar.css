@@ -48,4 +48,8 @@ gap: 80px;
     header{
         flex-direction: column;
     }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
 } 
