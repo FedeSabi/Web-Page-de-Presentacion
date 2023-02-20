@@ -47,17 +47,21 @@
         height: 10%;  
     }
     .fede{
-        width: 35%;
-        height: 10%;   
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -80px;
+          
     }
-    .fede h1{
-        font-size: 2.5em;
+    .fede .h1{
+        font-size: 2em;
     }
-    .fede h2{
-        font-size: 1.5em;
+    .fede .h2{
+        font-size: 1.2em;
     }
-    .fede p{
-        font-size: 1em;
+    .fede .p{
+        font-size: 0.4em;
     }
     }
 }
